@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HelperClass {
 	
 
-	 // ThreadLocal used to manage the driver
+	 // ThreadLocal used to manage the driver---
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     
     // Private constructor to prevent the creation of new instances of Driver

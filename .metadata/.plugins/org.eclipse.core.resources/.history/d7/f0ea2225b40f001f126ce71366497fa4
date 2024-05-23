@@ -1,9 +1,0 @@
-package RunnerFiles;
-import io.cucumber.plugin.Plugin;
-
-public class customizePretty implements Plugin {
-	
-	@override
-	
-
-}

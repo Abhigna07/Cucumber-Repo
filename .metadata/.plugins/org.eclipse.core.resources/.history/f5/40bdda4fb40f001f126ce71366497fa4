@@ -1,9 +1,0 @@
-package RunnerFiles;
-import io.cucumber.plugin.Plugin;
-import io.cucumber.plugin.event.Node.Example;
-
-public class customizePretty implements  {
-	
-
-
-}

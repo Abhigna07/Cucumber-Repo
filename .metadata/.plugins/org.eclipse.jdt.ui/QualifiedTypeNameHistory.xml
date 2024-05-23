@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="StepDefinitions.Hooks"/>
     <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
     <fullyQualifiedTypeName name="io.opentelemetry.api.internal.StringUtils"/>
-    <fullyQualifiedTypeName name="io.cucumber.java.Scenario"/>
     <fullyQualifiedTypeName name="io.cucumber.plugin.event.Node.ScenarioOutline"/>
     <fullyQualifiedTypeName name="io.cucumber.plugin.event.Node.Example"/>
     <fullyQualifiedTypeName name="io.cucumber.java.AfterStep"/>
@@ -21,4 +20,12 @@
     <fullyQualifiedTypeName name="io.cucumber.shaded.gherkin.messages.internal.gherkin.internal.com.eclipsesource.json.PrettyPrint"/>
     <fullyQualifiedTypeName name="io.cucumber.plugin.event.EventHandler"/>
     <fullyQualifiedTypeName name="io.cucumber.plugin.Plugin"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.an.E"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.an.E.Es"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Scenario"/>
+    <fullyQualifiedTypeName name="Stepdefintion.stepdefinitions"/>
+    <fullyQualifiedTypeName name="io.cucumber.core.gherkin.Step"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.PendingException"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>
