@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: Login to HRM Application
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 66.91 s <<< FAILURE! -- in Login to HRM Application
+Login to HRM Application.Login with valid credentials -- Time elapsed: 19.89 s <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='app']/div[1]/div[2]/div[2]/div/div[1]/div[1]/div[1]/h5"}
+  (Session info: chrome=124.0.6367.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [668b41397d01ebf59830d3323ec124b2, findElement {value=//*[@id='app']/div[1]/div[2]/div[2]/div/div[1]/div[1]/div[1]/h5, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\abhig\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54837/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 668b41397d01ebf59830d3323ec124b2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.getText(Unknown Source)
+	at junitPOMCucumberJunit.Actions.HomePageActions.getHomePageText(HomePageActions.java:22)
+	at junitPOMCucumberJunit.stepDefinitaions.LoginPageDefinitions.verifyLogin(LoginPageDefinitions.java:38)
+	at ✽.User should be able to login sucessfully and new page open(file:///C:/Users/abhig/OneDrive/Desktop/Cucumber%20Tutorials/Cucumber%20Eclipse%20WS/junitPOMCucumberJunit/src/test/resources/features/loginPage.feature:10)
+
+Login to HRM Application.Login with blank username -- Time elapsed: 14.04 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Required[]> but was:<Required[1]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at junitPOMCucumberJunit.stepDefinitaions.LoginPageDefinitions.verifyMissingUsernameMessage(LoginPageDefinitions.java:53)
+	at ✽.User should be able to see a message "Required1" below Username(file:///C:/Users/abhig/OneDrive/Desktop/Cucumber%20Tutorials/Cucumber%20Eclipse%20WS/junitPOMCucumberJunit/src/test/resources/features/loginPage.feature:29)
+

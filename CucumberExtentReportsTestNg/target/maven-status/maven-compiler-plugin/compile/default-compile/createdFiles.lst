@@ -1,0 +1,7 @@
+Locators\HomePageLocators.class
+Actions\LoginPageActions.class
+Actions\ForgotPasswordActions.class
+Locators\LoginPageLocators.class
+utils\HelperClass.class
+Locators\ForgotPasswordLocators.class
+Actions\HomePageActions.class

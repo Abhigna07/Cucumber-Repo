@@ -1,0 +1,21 @@
+package javaPrograms;
+
+public class SumOfDigits {
+	
+	int rem=0, sum=0;
+	
+	public static void sumAllDigits(int sumNum)
+	
+	{
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

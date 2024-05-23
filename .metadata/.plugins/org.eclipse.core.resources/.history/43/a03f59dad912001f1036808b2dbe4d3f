@@ -1,0 +1,23 @@
+package javaPrograms;
+
+public class ReverseNumber {
+
+	static int number= 123, rem=0, reversenum=0;
+	
+	public static void reversal()
+	
+	{
+		
+		rem=number%10;
+		reversenum= reversenum + rem*10;
+		n=n/10;
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

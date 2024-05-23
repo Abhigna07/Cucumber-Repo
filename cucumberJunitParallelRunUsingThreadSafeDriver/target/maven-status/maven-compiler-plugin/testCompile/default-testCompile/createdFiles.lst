@@ -1,0 +1,3 @@
+StepDefinitions\LoginPageDefinitions.class
+StepDefinitions\Hooks.class
+RunnerFiles\RunnerFileTest.class

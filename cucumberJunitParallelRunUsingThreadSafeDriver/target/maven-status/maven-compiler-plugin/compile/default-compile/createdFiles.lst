@@ -1,0 +1,5 @@
+Actions\LoginPageActions.class
+Locators\LoginPageLocators.class
+utils\HelperClass.class
+Actions\HomePageActions.class
+Locators\HomePageLocators.class

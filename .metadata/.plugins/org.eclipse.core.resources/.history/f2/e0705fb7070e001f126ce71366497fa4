@@ -1,0 +1,10 @@
+package utils.java;
+
+import org.openqa.selenium.WebDriver;
+
+public class HelperClass {
+	
+	 // ThreadLocal used to manage the driver
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+}

@@ -1,0 +1,17 @@
+package RunnerFiles;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+@CucumberOptions(tags = "", features = "src/test/resources/features", glue = "org.example.definitions")
+
+
+
+
+public class RunnerFile extends AbstractTestNGCucumberTests{
+	
+	 
+	   @Override
+	    @DataProvider(parallel = true)
+	    public Object[][] scenarios() {
+
+}

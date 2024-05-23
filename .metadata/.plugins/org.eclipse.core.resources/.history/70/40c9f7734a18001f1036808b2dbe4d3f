@@ -1,0 +1,75 @@
+package definitionFiles;
+
+import org.testng.Assert;
+
+import Actions.HomePageActions;
+import Actions.LoginPageActions;
+import io.cucumber.core.gherkin.Step;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.an.E;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import utilities.HelperClass;
+
+public class LoginPageDefinitions {
+	
+	LoginPageActions objLogin = new LoginPageActions();
+    HomePageActions objHomePage = new HomePageActions();
+ 
+    @Given("User is on HRMLogin page {string}")
+    public void loginTest(String url) {
+ 
+        HelperClass.openPage(url);
+ 
+    }
+    
+    @Given("I do steps {string} for {int} times")
+    public void repeatSteps(Step toDo , int numberOfTimes ) {
+ 
+    	for(int i=1; i<=numberOfTimes;i++)
+    		
+    	{
+    		
+    		
+    		
+    	}
+ 
+    }
+    
+ 
+    @When("User enters username as {string} and password as {string}")
+    public void goToHomePage(String userName, String passWord) {
+ 
+        // login to application
+        objLogin.login(userName, passWord);
+ 
+        // go the next page
+ 
+    }
+ 
+    @Then("User should be able to login successfully and new page open")
+    public void verifyLogin() {
+ 
+        // Verify home page
+        Assert.assertTrue(objHomePage.getHomePageText().contains("Dashboard"));
+ 
+    }
+ 
+    @Then("User should be able to see error message {string}")
+    public void verifyErrorMessage(String expectedErrorMessage) {
+ 
+        // Verify error message
+        Assert.assertEquals(objLogin.getErrorMessage(),expectedErrorMessage);
+ 
+    }
+ 
+    @Then("User should be able to see a message {string} below Username")
+    public void verifyMissingUsernameMessage(String message) {
+ 
+        Assert.assertEquals(objLogin.getMissingUsernameText(),message);
+    }
+    
+    
+
+}

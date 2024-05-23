@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Login to HRM Application #2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.41 s <<< FAILURE! -- in Login to HRM Application #2
+Login to HRM Application #2.Login with blank username -- Time elapsed: 10.41 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Required[]> but was:<Required[One]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.LoginPageDefinitions.verifyMissingUsernameMessage(LoginPageDefinitions.java:53)
+	at ✽.User should be able to see a message "RequiredOne" below Username(file:///C:/Users/abhig/OneDrive/Desktop/Cucumber%20Tutorials/Cucumber%20Eclipse%20WS/cucumberJunitParallelRunUsingThreadSafeDriver/src/test/resources/features/loginPageOne.feature:10)
+

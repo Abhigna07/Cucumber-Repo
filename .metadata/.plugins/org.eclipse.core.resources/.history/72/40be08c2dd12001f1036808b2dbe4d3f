@@ -1,0 +1,15 @@
+package javaPrograms;
+
+public class primeNumber {
+	
+	
+	public static void checkPrimeNumber(int number)
+	
+	{}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

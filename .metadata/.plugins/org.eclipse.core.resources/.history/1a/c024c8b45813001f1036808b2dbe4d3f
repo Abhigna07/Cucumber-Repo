@@ -1,0 +1,55 @@
+package javaPrograms;
+
+import java.util.HashMap;
+
+public class duplicateCharactersInString {
+	
+	
+	public static void duplicateCharacs(String dupToFindStr)
+	
+	{
+		
+		
+		char splitchars[] =value.toCharArray();
+
+		HashMap<Character,Integer> map = new HashMap<>();
+
+
+			
+			for(int i=0;i<splitchars.length;i++)
+				
+			{
+				
+				if(map.containsKey(splitchars[i]))
+					
+				{
+					
+					map.put(splitchars[i], map.get(splitchars[i])+1);
+					
+				}
+				
+				else
+					
+				{
+					
+					map.put(splitchars[i],1);
+				}
+				
+			}
+			
+			System.out.println(map.toString());
+			
+		}
+		
+		
+		
+		
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

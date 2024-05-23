@@ -1,0 +1,21 @@
+package javaPrograms;
+
+public class Sorting {
+	
+	
+	public static void sortLogic(int[]numbers)
+	
+	{
+		
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

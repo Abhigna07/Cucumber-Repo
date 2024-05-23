@@ -1,0 +1,30 @@
+package javaPrograms;
+
+public class Sorting {
+	
+	
+	public static void sortLogic(int[]numbers)
+	
+	{
+		
+		
+		for(int i =0; i< numbers.length ; i++)
+			
+		{
+			
+			for(int j=i+1 ; j<numbers.length;j++)
+				
+			{}
+			
+			
+		}
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+junitPOMCucumberJunit\Actions\LoginPageActions.class
+junitPOMCucumberJunit\utils\HelperClass.class
+junitPOMCucumberJunit\Locators\HomePageLocators.class
+junitPOMCucumberJunit\Actions\HomePageActions.class
+junitPOMCucumberJunit\Locators\LoginPageLocators.class

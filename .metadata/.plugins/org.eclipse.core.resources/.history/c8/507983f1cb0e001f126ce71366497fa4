@@ -1,0 +1,17 @@
+package RunnerFiles;
+
+
+
+@CucumberOptions(tags = "", features = "src/test/resources/features", glue = "org.example.definitions")
+
+
+
+
+public class RunnerFile {
+	
+	 
+	   @Override
+	    @DataProvider(parallel = true)
+	    public Object[][] scenarios() {
+
+}

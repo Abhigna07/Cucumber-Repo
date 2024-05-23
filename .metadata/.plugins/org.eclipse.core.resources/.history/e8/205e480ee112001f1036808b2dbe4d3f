@@ -1,0 +1,10 @@
+package javaPrograms;
+
+public class FrequencyOfNumbers {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

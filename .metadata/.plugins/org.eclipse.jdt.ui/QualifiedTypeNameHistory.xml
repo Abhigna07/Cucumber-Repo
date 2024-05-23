@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="io.cucumber.testng.CucumberOptions"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Before"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
+    <fullyQualifiedTypeName name="Utils.TestSetUp"/>
+    <fullyQualifiedTypeName name="utils.java.HelperClass"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="StepDefinitions.Hooks"/>
+    <fullyQualifiedTypeName name="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+    <fullyQualifiedTypeName name="io.opentelemetry.api.internal.StringUtils"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.Scenario"/>
+    <fullyQualifiedTypeName name="io.cucumber.plugin.event.Node.ScenarioOutline"/>
+    <fullyQualifiedTypeName name="io.cucumber.plugin.event.Node.Example"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.AfterStep"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.After"/>
+    <fullyQualifiedTypeName name="io.cucumber.shaded.gherkin.messages.internal.gherkin.internal.com.eclipsesource.json.PrettyPrint"/>
+    <fullyQualifiedTypeName name="io.cucumber.plugin.event.EventHandler"/>
+    <fullyQualifiedTypeName name="io.cucumber.plugin.Plugin"/>
+</qualifiedTypeNameHistroy>
